@@ -61,8 +61,6 @@ This repository contains **intentionally vulnerable code and configuration files
 - Cloud account (AWS/GCP/Azure) for cloud challenges
 - Command line familiarity
 
-<a href="https://github.com/vshymanskyy/StandWithUkraine/blob/main/README.md"><img src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-no-action.svg" /></a>
-
 ## Table of contents
 
 ### 🎯 Getting Started
