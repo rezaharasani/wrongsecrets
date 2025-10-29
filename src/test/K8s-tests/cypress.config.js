@@ -10,7 +10,7 @@ module.exports = defineConfig({
     reporterOptions: {
       configFile: 'reporter-config.json'
     },
-    setupNodeEvents (on, config) {
+    setupNodeEvents(on, config) {
       // implement node event listeners here
     }
   }

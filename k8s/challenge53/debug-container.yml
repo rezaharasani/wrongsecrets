@@ -8,10 +8,10 @@ spec:
     runAsNonRoot: true
     allowPrivilegeEscalation: false
   containers:
-  - name: app
-    image: jeroenwillemsen/wrongsecrets-challenge53-debug:1
-    securityContext:
-      allowPrivilegeEscalation: false
-      capabilities:
-        drop: ["ALL"]
-        ## TODO: update container image and user
+    - name: app
+      image: jeroenwillemsen/wrongsecrets-challenge53-debug:1
+      securityContext:
+        allowPrivilegeEscalation: false
+        capabilities:
+          drop: ["ALL"]
+          ## TODO: update container image and user

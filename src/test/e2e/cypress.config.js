@@ -11,7 +11,7 @@ module.exports = defineConfig({
       configFile: 'reporter-config.json'
     },
     userAgent: 'Cypress WrongSecrets E2E Tests',
-    setupNodeEvents (on, config) {
+    setupNodeEvents(on, config) {
       // implement node event listeners here
     }
   }
